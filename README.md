@@ -8,7 +8,7 @@
 Windows 快速控制 Home Assistant 设备开启或关闭
 
 # 功能说明
-极致简单的一个快速控制 Home Assistant 里添加的设备的开启或关闭
+极致简单的一个快速控制 Home Assistant 里设备的开启或关闭
 
 # 使用方法
 1、下载 HAControlCLI.exe 程序
