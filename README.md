@@ -4,6 +4,7 @@
 [![Xun-X](https://img.shields.io/static/v1?label=软件特点&message=简单、易用&color=48C21A)](https://github.com/Xun-X/HAControlCLI)
 [![Xun-X](https://img.shields.io/static/v1?label=软件性质&message=免费、非开源&color=1081C2)](https://github.com/Xun-X/HAControlCLI)
 [![Xun-X](https://img.shields.io/static/v1?label=获取方式&message=Github下载&color=F48041)](https://github.com/Xun-X/HAControlCLI)
+
 Windows 快速控制 Home Assistant 设备开启或关闭
 
 # 功能说明
