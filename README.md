@@ -1,5 +1,5 @@
 # HAControlCLI
-快速控制 Home Assistant 设备开启或关闭
+Windows 快速控制 Home Assistant 设备开启或关闭
 
 # 功能说明
 极致简单的一个快速控制 Home Assistant 里添加的设备的开启或关闭
