@@ -55,7 +55,7 @@ HAControlCLI.exe 0 实体标识符
 ```
 4.运行“on.bat”就会开启设备的开关 / 运行“off.bat”就会关闭设备的开关
 
-没有技术难度的小工具，就是通过post请求，控制设备开启或关闭的简单程序
+## 没有技术难度的小工具，快速post请求，控制设备开启或关闭的简单程序
 
 # 下载地址
 [点击下载](https://raw.githubusercontent.com/Xun-X/HAControlCLI/refs/heads/main/HAControlCLI.exe "点击下载")
