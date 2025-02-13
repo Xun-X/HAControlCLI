@@ -60,7 +60,12 @@ HAControlCLI.exe 0 实体标识符
 # 下载地址
 [点击下载](https://raw.githubusercontent.com/Xun-X/HAControlCLI/refs/heads/main/HAControlCLI.exe "点击下载")
 
-# 使用注意
+# 使用前提
 需自行搭建好 Home Assistant 平台，添加好自己的智能开关等设备
 
 (Home Assistant在Youtube有视频教程，安装部署很简单)
+
+# 拓展思维
+例如电脑开机自动运行前面创建的off.bat，就关闭（假设 客厅灯）；
+检测本地播放器运行就通过本程序自动关闭房间灯，开始真暗夜电影模式；
+打游戏就紧张流汗，检测到某个游戏进程就通过本程序控制风扇开启；
