@@ -9,6 +9,7 @@
 
 # 首次配置方法：
 如图：
+
 ![](https://raw.githubusercontent.com/Xun-X/HAControlCLI/refs/heads/main/images/1.png)
 
 1、界面中填入 Home Assistant 的[WEB访问地址]，注意结尾不加“/”
