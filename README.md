@@ -11,7 +11,11 @@ Windows 快速控制 Home Assistant 设备开启或关闭
 极致简单的一个快速控制 Home Assistant 里添加的设备的开启或关闭
 
 # 使用方法
-下载 HAControlCLI.exe 程序，双击运行，弹出配置界面
+1、下载 HAControlCLI.exe 程序
+
+2、首次直接双击运行，弹出配置界面，会在运行目录下创建[HAControlCLI.hadb]文件，里面保存API和服务器地址
+
+3、按照下方 [使用方法] 使用即可
 
 # 首次配置方法：
 如图：
@@ -30,13 +34,28 @@ Windows 快速控制 Home Assistant 设备开启或关闭
 
 第二个参数 实体标识符。Home Assistant里找到对应设备开或关的 "实体标识符"
 
-例如：
+## 方法1：
+Windows 操作系统 按下 Win键 + R 启动[运行]窗口，按照如下格式的内容运行即可
 
-开启 "D:\HAControlCLI.exe 1 实体标识符"
+开启 "D:\HAControlCLI.exe 1 实体标识符" 
 
 关闭 "D:\HAControlCLI.exe 0 实体标识符"
 
-没有技术难度的东西，就是通过post请求设备开启或关闭的简单程序
+## 方法2：
+1.HAControlCLI.exe 所在目录创建2个文件，分别是“on.bat”和“off.bat”
+
+2.用记事本打开“on.bat”，输入如下内容：
+```
+HAControlCLI.exe 1 实体标识符
+```
+
+3.用记事本打开“off.bat”，输入如下内容：
+```
+HAControlCLI.exe 0 实体标识符
+```
+4.运行“on.bat”就会开启设备的开关 / 运行“off.bat”就会关闭设备的开关
+
+没有技术难度的小工具，就是通过post请求，控制设备开启或关闭的简单程序
 
 # 下载地址
 [点击下载](https://raw.githubusercontent.com/Xun-X/HAControlCLI/refs/heads/main/HAControlCLI.exe "点击下载")
