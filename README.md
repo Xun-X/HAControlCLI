@@ -23,7 +23,7 @@ Windows 快速控制 Home Assistant 里设备开启或关闭
 ![](https://raw.githubusercontent.com/Xun-X/HAControlCLI/refs/heads/main/images/1.png)
 
 1、界面中填入 Home Assistant 的[WEB访问地址]，注意结尾不加“/”
-例如：“http://192.168.1.123:8123”
+例如：“http://192.168.0.123:8123”
 
 2、界面中填入在 Home Assistant 里创建的[长期访问令牌]
 
