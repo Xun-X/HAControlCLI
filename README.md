@@ -23,6 +23,7 @@ Windows 快速控制 Home Assistant 里设备开启或关闭
 ![](https://raw.githubusercontent.com/Xun-X/HAControlCLI/refs/heads/main/images/1.png)
 
 1、界面中填入 Home Assistant 的[WEB访问地址]，注意结尾不加“/”
+
 例如：“http://192.168.0.123:8123”
 
 2、界面中填入在 Home Assistant 里创建的[长期访问令牌]
@@ -67,5 +68,7 @@ HAControlCLI.exe 0 实体标识符
 
 # 拓展思维
 例如电脑开机自动运行前面创建的off.bat，就关闭（假设 客厅灯）；
+
 检测本地播放器运行就通过本程序自动关闭房间灯，开始真暗夜电影模式；
+
 打游戏就紧张流汗，检测到某个游戏进程就通过本程序控制风扇开启；
