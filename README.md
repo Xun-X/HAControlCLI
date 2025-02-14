@@ -51,9 +51,9 @@ HAControlCLI.exe 0 实体标识符
 ## 方法2：
 按下 Win键 + R 启动[运行]窗口，按照如下格式的内容运行即可
 
-开启 "D:\HAControlCLI.exe 1 实体标识符" 
+开启设备："D:\HAControlCLI.exe 1 实体标识符" 
 
-关闭 "D:\HAControlCLI.exe 0 实体标识符"
+关闭设备："D:\HAControlCLI.exe 0 实体标识符"
 
 ## 没有技术难度的小工具，快速post请求，控制设备开启或关闭的简单程序
 
